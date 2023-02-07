@@ -30,7 +30,7 @@ mongoose
   
 
 
-const server = app.listen(process.env.PORT, () =>
+const server = app.listen('http://chat-app-backend-7kqv.onrender.com', () =>
   console.log(`Server started on ${process.env.PORT}`)
 );
 const io  = socket(server, {
